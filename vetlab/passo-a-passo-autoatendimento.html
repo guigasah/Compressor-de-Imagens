@@ -1,54 +1,101 @@
 <!doctype html><html><head><meta charset="utf-8"><style>
 html,body{margin:0}
-.p{width:794px;height:1123px;background:#fff;font-family:Inter,sans-serif;color:#2b1a1a;position:relative;box-sizing:border-box;padding:34px 46px}
-.logo{display:block;margin:0 auto;width:470px}
-.tag{margin:6px auto 0;width:max-content;background:#8b1414;color:#fff;font-weight:800;font-size:30px;letter-spacing:1px;padding:10px 30px;border-radius:40px}
-.sub{text-align:center;font-size:19px;color:#6b4a4a;margin:12px 0 22px}
-.step{display:flex;align-items:center;gap:26px;border:2px solid #ead6d6;border-radius:26px;padding:22px 28px;margin-bottom:22px;background:#fffafa;position:relative}
-.n{flex:none;width:66px;height:66px;border-radius:50%;background:#8b1414;color:#fff;font-weight:800;font-size:38px;display:flex;align-items:center;justify-content:center}
-.ic{flex:none;width:150px;height:150px}
-.tx h2{margin:0 0 6px;font-size:30px;font-weight:800;color:#8b1414;line-height:1.1}
-.tx p{margin:0;font-size:21px;line-height:1.35;color:#3d2a2a}
-.arrow{text-align:center;margin:-14px 0 8px;color:#8b1414}
-.foot{position:absolute;left:46px;right:46px;bottom:34px;text-align:center;font-size:22px;font-weight:700;color:#8b1414;border-top:2px solid #ead6d6;padding-top:16px}
-.foot span{font-weight:500;color:#6b4a4a;font-size:18px;display:block;margin-top:4px}
+.p{width:1123px;height:794px;background:#fff;font-family:Inter,sans-serif;color:#2b1a1a;position:relative;box-sizing:border-box;padding:22px 34px}
+.top{display:flex;align-items:center;justify-content:center;gap:34px}
+.logo{height:118px}
+.ttl{text-align:left}
+.tag{background:#8b1414;color:#fff;font-weight:900;font-size:40px;letter-spacing:1.5px;padding:8px 30px;border-radius:44px;display:inline-block}
+.sub{font-size:26px;font-weight:700;color:#8b1414;margin-top:8px;padding-left:6px}
+.row{display:flex;align-items:center;justify-content:space-between;margin-top:50px}
+.card{width:300px;height:500px;border:4px solid #8b1414;border-radius:34px;background:#fff8f6;position:relative;box-sizing:border-box;display:flex;flex-direction:column;align-items:center;padding:56px 14px 18px}
+.n{position:absolute;top:-30px;left:50%;transform:translateX(-50%);width:76px;height:76px;border-radius:50%;background:#8b1414;color:#fff;font-weight:900;font-size:48px;display:flex;align-items:center;justify-content:center;border:5px solid #fff;box-shadow:0 0 0 4px #8b1414}
+.card svg.ill{width:256px;height:256px}
+.cap{margin-top:14px;text-align:center;font-weight:900;font-size:31px;line-height:1.12;color:#8b1414}
+.hint{margin-top:8px;text-align:center;font-size:20px;font-weight:600;line-height:1.25;color:#4a3030}
+.arr{flex:none;width:96px;height:96px}
+.foot{position:absolute;left:0;right:0;bottom:16px;text-align:center;font-size:26px;font-weight:900;color:#2f8a3f}
 </style></head><body><div class="p">
-<img class="logo" src="vetlogo.jpg">
-<div class="tag">AUTOATENDIMENTO</div>
-<div class="sub">Siga os 3 passos abaixo para deixar a sua amostra</div>
+<div class="top"><img class="logo" src="vetlogo.jpg"><div class="ttl"><div class="tag">AUTOATENDIMENTO</div><div class="sub">É fácil! Siga os 3 passos 👉</div></div></div>
+<div class="row">
 
-<div class="step"><div class="n">1</div>
-<svg class="ic" viewBox="0 0 150 150"><g stroke="#8b1414" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
- <path d="M22,62 L128,62 L120,132 L30,132 Z" fill="#fff"/>
- <path d="M18,48 L132,48 L132,62 L18,62 Z" fill="#f3e4e4"/>
- <path d="M40,40 L40,48 M110,40 L110,48" />
- <g fill="#fff"><rect x="56" y="14" width="14" height="40" rx="5" transform="rotate(-12 63 34)"/><rect x="80" y="10" width="14" height="44" rx="5" transform="rotate(10 87 32)"/></g>
- <path d="M58,22 l12,-3 M84,17 l12,2" />
- <path d="M80,84 h26 M42,108 h66" stroke-width="2.5" stroke-dasharray="4 5"/>
- <path d="M75,30 v-0" />
-</g><path d="M60,74 v18 M51,83 h18" stroke="#c0392b" stroke-width="5" stroke-linecap="round"/></svg>
-<div class="tx"><h2>Guarde o material<br>dentro do isopor</h2><p>Coloque a amostra bem fechada e identificada dentro da caixa de isopor e feche a tampa.</p></div></div>
+<div class="card"><div class="n">1</div>
+<svg class="ill" viewBox="0 0 256 256">
+ <!-- tubo entrando -->
+ <g transform="rotate(-8 128 60)">
+  <rect x="110" y="18" width="36" height="96" rx="16" fill="#e8f4ff" stroke="#2b1a1a" stroke-width="5"/>
+  <rect x="110" y="62" width="36" height="52" rx="16" fill="#e2453c" stroke="none"/>
+  <rect x="110" y="18" width="36" height="96" rx="16" fill="none" stroke="#2b1a1a" stroke-width="5"/>
+  <rect x="104" y="8" width="48" height="22" rx="6" fill="#8b1414" stroke="#2b1a1a" stroke-width="5"/>
+ </g>
+ <path d="M200,40 v60" stroke="#f39c12" stroke-width="10" stroke-linecap="round"/>
+ <path d="M184,88 l16,20 l16,-20" fill="none" stroke="#f39c12" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+ <!-- tampa aberta -->
+ <path d="M24,120 L120,98 L126,116 L30,140 Z" fill="#fff" stroke="#2b1a1a" stroke-width="5" stroke-linejoin="round"/>
+ <!-- caixa de isopor -->
+ <path d="M34,138 L222,138 L210,238 L46,238 Z" fill="#fff" stroke="#2b1a1a" stroke-width="6" stroke-linejoin="round"/>
+ <path d="M30,126 L226,126 L226,142 L30,142 Z" fill="#f4f4f4" stroke="#2b1a1a" stroke-width="5" stroke-linejoin="round"/>
+ <g fill="#cfd8dc"><circle cx="70" cy="170" r="4"/><circle cx="96" cy="200" r="4"/><circle cx="150" cy="176" r="4"/><circle cx="180" cy="210" r="4"/><circle cx="120" cy="222" r="4"/><circle cx="196" cy="166" r="4"/><circle cx="62" cy="214" r="4"/></g>
+ <rect x="96" y="168" width="64" height="40" rx="8" fill="#fff" stroke="#8b1414" stroke-width="4"/>
+ <path d="M128,176 v24 M116,188 h24" stroke="#e2453c" stroke-width="7" stroke-linecap="round"/>
+</svg>
+<div class="cap">Coloque o material no isopor</div>
+<div class="hint">e feche a tampa</div></div>
 
-<div class="step"><div class="n">2</div>
-<svg class="ic" viewBox="0 0 150 150"><g stroke="#8b1414" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none">
- <rect x="30" y="22" width="84" height="112" rx="8" fill="#fff"/>
- <rect x="54" y="14" width="36" height="16" rx="4" fill="#f3e4e4"/>
- <path d="M44,52 l6,6 l10,-12 M68,52 h32 M44,78 l6,6 l10,-12 M68,78 h32 M44,104 h12 M68,104 h22" />
- <path d="M96,128 L132,74 L142,82 L106,134 L94,138 Z" fill="#fff"/>
- <path d="M126,83 l9,7" />
-</g></svg>
-<div class="tx"><h2>Preencha a ficha<br>de requisição</h2><p>Complete todos os dados do tutor, do animal e os exames solicitados. Deixe a ficha junto com o material.</p></div></div>
+<svg class="arr" viewBox="0 0 96 96"><path d="M8,36 h44 v-22 l38,34 l-38,34 v-22 h-44 Z" fill="#f39c12" stroke="#c77700" stroke-width="4" stroke-linejoin="round"/></svg>
 
-<div class="step"><div class="n">3</div>
-<svg class="ic" viewBox="0 0 150 150"><g stroke="#8b1414" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
- <rect x="10" y="40" width="88" height="58" rx="9" fill="#fff"/>
- <path d="M10,56 h88" stroke-width="9"/>
- <path d="M22,84 h22" />
- <rect x="66" y="78" width="20" height="12" rx="2" fill="#f3e4e4"/>
- <path d="M112,56 a30,30 0 1 1 -10.5,52 l-14,4 l4.5,-13 a30,30 0 0 1 20,-43 Z" fill="#fff" stroke="#25a244"/>
- <path d="M106,72 c-3,0 -5,3 -4,6 c2,8 9,15 17,17 c3,1 6,-1 6,-4 l-1,-4 l-6,-2 l-3,3 c-4,-2 -6,-4 -8,-8 l3,-3 l-2,-6 Z" fill="#25a244" stroke="none"/>
-</g></svg>
-<div class="tx"><h2>Realize o pagamento</h2><p>Pague via <b>PIX</b> usando a chave da <b>placa ao lado</b> e <b>envie o comprovante pelo WhatsApp</b>, informando o nome do animal e do tutor.</p></div></div>
+<div class="card"><div class="n">2</div>
+<svg class="ill" viewBox="0 0 256 256">
+ <rect x="40" y="30" width="150" height="206" rx="16" fill="#c98b4f" stroke="#2b1a1a" stroke-width="6"/>
+ <rect x="54" y="50" width="122" height="172" rx="6" fill="#fff" stroke="#2b1a1a" stroke-width="4"/>
+ <rect x="84" y="18" width="62" height="30" rx="8" fill="#9aa3ad" stroke="#2b1a1a" stroke-width="5"/>
+ <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+  <rect x="68" y="72" width="22" height="22" rx="4" stroke="#2b1a1a" stroke-width="4"/><path d="M72,83 l6,7 l12,-16" stroke="#2f8a3f" stroke-width="6"/>
+  <path d="M100,83 h60" stroke="#9aa3ad" stroke-width="7"/>
+  <rect x="68" y="112" width="22" height="22" rx="4" stroke="#2b1a1a" stroke-width="4"/><path d="M72,123 l6,7 l12,-16" stroke="#2f8a3f" stroke-width="6"/>
+  <path d="M100,123 h60" stroke="#9aa3ad" stroke-width="7"/>
+  <rect x="68" y="152" width="22" height="22" rx="4" stroke="#2b1a1a" stroke-width="4"/>
+  <path d="M100,163 h36" stroke="#9aa3ad" stroke-width="7"/>
+  <path d="M70,198 c10,-10 18,8 28,-2 s16,6 24,-2" stroke="#1f5fbf" stroke-width="5"/>
+ </g>
+ <!-- lápis -->
+ <g transform="rotate(35 200 150)">
+  <rect x="186" y="70" width="28" height="120" rx="4" fill="#f9c74f" stroke="#2b1a1a" stroke-width="5"/>
+  <rect x="186" y="62" width="28" height="18" rx="4" fill="#f28b82" stroke="#2b1a1a" stroke-width="5"/>
+  <path d="M186,190 L200,222 L214,190 Z" fill="#f6dfc0" stroke="#2b1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M195,210 L200,222 L205,210 Z" fill="#2b1a1a"/>
+ </g>
+</svg>
+<div class="cap">Preencha a ficha</div>
+<div class="hint">com os dados do tutor e do animal</div></div>
 
-<div class="foot">Obrigado pela confiança!<span>Em caso de dúvida, fale conosco pelo WhatsApp.</span></div>
+<svg class="arr" viewBox="0 0 96 96"><path d="M8,36 h44 v-22 l38,34 l-38,34 v-22 h-44 Z" fill="#f39c12" stroke="#c77700" stroke-width="4" stroke-linejoin="round"/></svg>
+
+<div class="card"><div class="n">3</div>
+<svg class="ill" viewBox="0 0 256 256">
+ <!-- celular com PIX -->
+ <rect x="20" y="22" width="112" height="210" rx="20" fill="#2b1a1a"/>
+ <rect x="30" y="44" width="92" height="160" rx="6" fill="#fff"/>
+ <rect x="62" y="30" width="28" height="6" rx="3" fill="#555"/>
+ <g transform="translate(76 100)"><rect x="-26" y="-26" width="52" height="52" rx="12" transform="rotate(45)" fill="#32bcad"/><rect x="-11" y="-11" width="22" height="22" rx="4" transform="rotate(45)" fill="#fff"/></g>
+ <text x="76" y="168" text-anchor="middle" font-family="Inter" font-weight="900" font-size="26" fill="#32bcad">PIX</text>
+ <circle cx="112" cy="58" r="0"/>
+ <!-- comprovante -->
+ <path d="M158,22 h64 v70 l-8,-7 l-8,7 l-8,-7 l-8,7 l-8,-7 l-8,7 l-8,-7 l-8,7 Z" fill="#fff" stroke="#2b1a1a" stroke-width="4" stroke-linejoin="round"/>
+ <path d="M170,40 h40 M170,55 h30 M170,70 h36" stroke="#9aa3ad" stroke-width="5" stroke-linecap="round"/>
+ <circle cx="220" cy="28" r="14" fill="#2f8a3f" stroke="#fff" stroke-width="3"/>
+ <path d="M213,28 l5,5 l9,-10" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+ <!-- seta para baixo -->
+ <path d="M190,104 v34" stroke="#f39c12" stroke-width="10" stroke-linecap="round"/>
+ <path d="M176,128 l14,16 l14,-16" fill="none" stroke="#f39c12" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+ <!-- WhatsApp -->
+ <g transform="translate(192 196)">
+  <path d="M0,-40 a40,40 0 1 1 -22,73.4 l-18,5 l5.8,-17 a40,40 0 0 1 34.2,-61.4 Z" fill="#25d366" stroke="#1a9e4b" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M-12,-18 c-4,0 -7,4 -6,8 c3,13 14,23 26,27 c4,1 8,-1 9,-5 l0,-5 l-9,-4 l-4,4 c-6,-3 -10,-7 -13,-13 l4,-4 l-3,-9 Z" fill="#fff"/>
+ </g>
+</svg>
+<div class="cap">Pague no PIX e mande o comprovante no WhatsApp</div>
+<div class="hint">A chave PIX está na placa ao lado</div></div>
+
+</div>
+<div class="foot">✔ Pronto! Obrigado pela confiança!</div>
 </div></body></html>
